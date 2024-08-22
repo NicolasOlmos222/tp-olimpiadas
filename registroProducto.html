@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cargar Nuevo Producto</h2>
+    <form action="consultas/registroProductos.php" method="post">
+        <label for="">nombre:</label>
+        <input type="text" name="nombre_producto" id="nombre_producto" required><br>
+
+        <label for="">Descripción:</label>
+        <input type="text" name="descripcion" id="descripcion" required><br>
+
+        <label for="">Precio:</label>
+        <input type="number" name="precio" id="precio" required><br>
+
+        <label for="">Cantidad:</label>
+        <input type="number" name="cantidad" id="cantidad" required><br>
+
+        <label for="">Imagen:</label>
+        <input type="text" name="imagen" id="imagen" required><br>
+
+        <button type="submit">Agregar Producto</button>
+    </form>
+</body>
+</html>
